@@ -3,7 +3,9 @@
 ERROR: resources.cpp (199) - Cuda Error in gieCudaMalloc: 2
 
 [TensorRT] ERROR: resources.cpp (199) - Cuda Error in gieCudaMalloc: 2
+
 [TensorRT] ERROR: resources.cpp (199) - Cuda Error in gieCudaMalloc: 2
+
 [TensorRT] ERROR: Failed to create engine
 
     raise AssertionError('UFF parsing failed on line {} in statement {}'.format(line, text))
