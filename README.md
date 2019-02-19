@@ -14,9 +14,9 @@ AssertionError: UFF parsing failed on line 214 in statement assert(engine)
 I have resolved this amzing problem.
 I run this code in anaconda3/lib/python3.6/site-packages/tensorrt/examples/tf_to_trt/tf_to_trt.py
 
-Maybe you should down mnist datasets from: http://yann.lecun.com/exdb/mnist/ 
+Maybe you should download mnist datasets from: http://yann.lecun.com/exdb/mnist/ 
 
-And put this tar into the new path:/tmp/tensorflow/mnist/input_data/
+And put this tars into the new path:/tmp/tensorflow/mnist/input_data/
 
 My GPU is 1060 3G, so to run this code sucessfully,
 you must change tf_to_trt.py on line 91 from 
