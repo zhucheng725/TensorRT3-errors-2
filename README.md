@@ -24,3 +24,5 @@ MAX_WORKSPACE = 1 << 30 to MAX_WORKSPACE = 1 << 10
 
 And it would run sucessfully.
 Maybe it would help you.
+
+![image](https://github.com/zhucheng725/TensorRT3-errors-2/blob/master/result.png)
