@@ -20,7 +20,7 @@ And put this tars into the new path:/tmp/tensorflow/mnist/input_data/
 
 My GPU is 1060 3G, so to run this code sucessfully,
 you must change tf_to_trt.py on line 91 from 
-MAX_WORKSPACE = 1 << 30 to MAX_WORKSPACE = 1 << 10
+    MAX_WORKSPACE = 1 << 30 to MAX_WORKSPACE = 1 << 10
 
 And it would run sucessfully.
 Maybe it would help you.
