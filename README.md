@@ -8,7 +8,7 @@ ERROR: resources.cpp (199) - Cuda Error in gieCudaMalloc: 2
 
 [TensorRT] ERROR: Failed to create engine
 
-    raise AssertionError('UFF parsing failed on line {} in statement {}'.format(line, text))
+raise AssertionError('UFF parsing failed on line {} in statement {}'.format(line, text))
 AssertionError: UFF parsing failed on line 214 in statement assert(engine)
 
 I have resolved this amzing problem.
